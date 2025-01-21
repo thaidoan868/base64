@@ -58,11 +58,13 @@
 
     ins {
         display: block;
+        margin-top: 10px;
         height: 100px;
-        width: 100%;
+
+        background-color: var(--green2);
 
         p {
-            margin: 50px;
+            line-height: 100px;
         }
     }
     
