@@ -1,6 +1,7 @@
 .main {
     padding: 15px;
     max-width: 1352px;
+    text-align: left;
     
     color: white;
     background-color: var(--green);
