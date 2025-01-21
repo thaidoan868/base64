@@ -1,5 +1,23 @@
 .App {
-  text-align: center;
+  background-color: var(--green);
+  background-image: url('https://cdn.base64decode.org/assets/images/pattern.svg');
+  background-repeat: repeat;
+
+  div.grid {
+    display: grid;
+    grid-template-columns: 170px minmax(200px, auto);
+
+    max-width: 1400px;
+    margin: auto;
+
+    @media screen and (max-width: 700px) {
+      display: block;
+
+      div.leftSideBar {
+        display: none;
+      }
+    }
+  }
 }
 
 .App-logo {
@@ -36,3 +54,5 @@
     transform: rotate(360deg);
   }
 }
+
+

@@ -33,4 +33,15 @@ code {
     monospace;
 }
 
+ins {
+    display: block;
+    margin-top: 10px;
+    height: 100px;
+    line-height: 100px;
+
+    background-color: var(--green2);
+    text-align: center;
+
+}
+
 

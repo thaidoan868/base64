@@ -1,0 +1,44 @@
+.rightSideBar {
+    padding: 15px;
+    .icon {
+        margin-right: 10px;
+    }
+
+    ins {
+        height: 400px;
+        line-height: 400px;
+    }
+    h2, hr, a {
+        margin: 10px 0;
+    }
+
+    h2 {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        font-size: 1em;
+
+        .icon {
+            font-size: 1.3em;
+        }
+    }
+
+    hr {
+        border: 1px dashed white;
+        font-size: .8em;
+    }
+
+    a {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 4px 10px;
+
+        background-color: var(--white3);
+        color: white;
+
+        font-size: .9em;
+        font-weight: bold;
+        text-decoration: none;
+    }
+}

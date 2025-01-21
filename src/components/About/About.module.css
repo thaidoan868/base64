@@ -42,13 +42,18 @@
     }
 
     p {
+        word-break: break-all;
         &.note {
             font-style: italic;
         }
     }
 
+    div.table {
+        overflow-x: scroll;
+    }
     table {
         border-collapse: collapse;
+        overflow: hidden;
 
         td, th {
             padding: 5px;

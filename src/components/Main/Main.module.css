@@ -9,4 +9,15 @@
     background-repeat: no-repeat;
     background-size: 960px 540px;
     background-position: left top;
+
+    div.grid {
+        display: grid;
+        grid-template-columns: minmax(200px, auto) 330px;
+    }
+
+    @media  screen and (max-width: 1150px) {
+        div.grid {
+            display: block;
+        }
+    }
 }

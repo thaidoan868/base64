@@ -44,7 +44,7 @@ export const Header: FC<HeaderProps> = (props:HeaderProps) => {
         </div>
         <p className={styles.intro}>{t("header.intro")}</p>
         <ins>
-            <p >AD goes here  </p>
+            <p >Ads goes here  </p>
         </ins>
     </div>
 }

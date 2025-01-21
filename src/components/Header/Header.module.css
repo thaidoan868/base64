@@ -56,16 +56,5 @@
         text-align: left;
     }
 
-    ins {
-        display: block;
-        margin-top: 10px;
-        height: 100px;
-
-        background-color: var(--green2);
-
-        p {
-            line-height: 100px;
-        }
-    }
     
 }

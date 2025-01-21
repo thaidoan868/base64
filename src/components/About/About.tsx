@@ -49,65 +49,68 @@ export const About: FC<AboutProps> = (props:AboutProps) => {
         <p>{t("about.details.example.content3")}</p>
         <p>{t("about.details.example.content4")}</p>
 
-        <table>
-            <thead>
+        <div className={styles.table}>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Text content</th>
+                        <th colSpan={8}>M</th>
+                        <th colSpan={8}>a</th>
+                        <th colSpan={8}>n</th>
+                    </tr>
+                </thead>
+                <tbody>
                 <tr>
-                    <th>Text content</th>
-                    <th colSpan={8}>M</th>
-                    <th colSpan={8}>a</th>
-                    <th colSpan={8}>n</th>
+                    <td>ASCII</td>
+                    <td colSpan={8}>77</td>
+                    <td colSpan={8}>97</td>
+                    <td colSpan={8}>110</td>
                 </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>ASCII</td>
-                <td colSpan={8}>77</td>
-                <td colSpan={8}>97</td>
-                <td colSpan={8}>110</td>
-            </tr>
-            <tr>
-                <td>Bit pattern</td>
-                <td>0</td>
-                <td>1</td>
-                <td>0</td>
-                <td>0</td>
-                <td>1</td>
-                <td>1</td>
-                <td>0</td>
-                <td>1</td>
-                <td>0</td>
-                <td>1</td>
-                <td>1</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>0</td>
-                <td>1</td>
-                <td>0</td>
-                <td>1</td>
-                <td>1</td>
-                <td>0</td>
-                <td>1</td>
-                <td>1</td>
-                <td>1</td>
-                <td>0</td>
-            </tr>
-            <tr>
-                <td>Index</td>
-                <td colSpan={6}>19</td>
-                <td colSpan={6}>22</td>
-                <td colSpan={6}>5</td>
-                <td colSpan={6}>46</td>
-            </tr>
-            <tr>
-                <td>Base64-encoded</td>
-                <td colSpan={6}>T</td>
-                <td colSpan={6}>W</td>
-                <td colSpan={6}>F</td>
-                <td colSpan={6}>u</td>
-            </tr>
-            </tbody>
-        </table>
+                <tr>
+                    <td>Bit pattern</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>Index</td>
+                    <td colSpan={6}>19</td>
+                    <td colSpan={6}>22</td>
+                    <td colSpan={6}>5</td>
+                    <td colSpan={6}>46</td>
+                </tr>
+                <tr>
+                    <td>Base64-encoded</td>
+                    <td colSpan={6}>T</td>
+                    <td colSpan={6}>W</td>
+                    <td colSpan={6}>F</td>
+                    <td colSpan={6}>u</td>
+                </tr>
+                </tbody>
+            </table>
+
+        </div>
         <p>{t("about.details.example.content5")}</p>
     </div>
 }

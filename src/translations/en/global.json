@@ -79,6 +79,25 @@
         "aboutUs": "About us",
         "contact": "Contact",
         "useCookies": "This website uses cookies. We use cookies to personalise content/ads and to analyse our traffic."
+    },
+    "rightSideBar": {
+        "tip": "Bonus tip: Bookmark us!",
+        "tools": {
+            "header": "Other tools",
+            "urlDecode": "URL Decode",
+            "urlEncode": "URL Encode",
+            "jsonMinify": "JSON Minify",
+            "jsonBeautify": "JSON Beautify",
+            "jsMinify": "JS Minify",
+            "jsBeautify": "JS Beautify",
+            "cssMinify": "CSS Minify",
+            "cssBeautify": "CSS Beautify"
+        },
+        "partners": {
+            "header": "Partner sites",
+            "numberSystemConverter": "Number System Converter",
+            "groupChat": "Secure Group Chat"
+        }
     }
 
 }
