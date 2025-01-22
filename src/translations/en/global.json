@@ -33,6 +33,31 @@
             "note": "The maximum file size is 192MB"
         }
     },
+    "base64Decode": {
+        "text": {
+            "header": "Decode from Base64 format",
+            "guide": "Simply enter your data then push the decode button.",
+            "input": "Type (or paste) here",
+            "note": "For encoded binaries (like images, documents, etc.) use the file upload form a little further down on this page.",
+            "sourceCharacterSet": "Source character set.",
+            "decodeSeparately": "Decode each line separately (useful for when you have multiple entries).",
+            "liveModeButton": "Live mode OFF",
+            "liveModeDescription": "Decodes in real-time as you type or paste (supports only the UTF-8 character set).",
+            "decodeButton": "DECODE",
+            "decodeDescription": "Decodes your data into the area below.",
+            "output": "Result goes here...",
+            "copyToClipboard": "Copy to clipboard"
+        },
+        "file": {
+            "header": "Decode files from Base64 format",
+            "guide": "Select a file to upload and process, then you can download the decoded result.",
+            "input": "Click (or tap) here to select a file",
+            "note": "The maximum file size is 192MB.",
+            "note1": "Do not execute decoded files originated from untrusted sources.",
+            "decodeSeparately": "Decode each line separately (useful for when you have multiple entries).",
+            "decode": "DECODE"
+        }
+    },
     "about": {
         "header": "About",
         "intro": "Meet Base64 Decode and Encode, a simple online tool that does exactly what it says: decodes from Base64 encoding as well as encodes into it quickly and easily. Base64 encode your data without hassles or decode it into a human-readable format.", 
