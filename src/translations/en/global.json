@@ -61,6 +61,15 @@
             "note1": "Do not execute decoded files originated from untrusted sources.",
             "decodeSeparately": "Decode each line separately (useful for when you have multiple entries).",
             "decode": "DECODE"
+        },
+        "error": {
+            "header": "ERROR",
+            "content": "Not a valid base64 input"
+        },
+        "success": {
+            "header": "Success! ",
+            "content": "The file has been decoded successfully. Click or tab to download the encoded file.",
+            "download": "Download"
         }
     },
     "about": {

@@ -8,7 +8,7 @@
     },
     "base64Encode": {
         "options": {
-            "destinationCharacterSet": "Bộ ký tự đích cho tệp văn bản.",
+            "destinationCharacterSet": "Chuyển thành bảng mã này trước khi mã hóa",
             "destinationNewline": "Ký tự dòng mới",
             "encodeSeparately": "Mã hóa từng dòng riêng biệt (hữu ích khi bạn có nhiều mục nhập).",
             "splitLines": "Chia các dòng thành các đoạn có độ rộng 76 ký tự (hữu ích cho MIME).",
@@ -61,6 +61,15 @@
             "note1": "Không thực thi các tệp đã giải mã có nguồn gốc từ những nguồn không đáng tin cậy.",
             "decodeSeparately": "Giải mã từng dòng riêng biệt (hữu ích khi bạn có nhiều mục nhập).",
             "decode": "GIẢI MÃ"
+        },
+        "error": {
+            "header": "LỖI",
+            "content": "Đầu vào base64 không hợp lệ"
+        },
+        "success": {
+            "header": "Thành công! ",
+            "content": "Tệp đã được giải mã thành công. Nhấp hoặc tab để tải xuống tệp đã giải mã.",
+            "download": "Tải về"
         }
     },
     "about": {

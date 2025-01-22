@@ -128,7 +128,7 @@ export const Base64Encode: FC<Base64EncodeProps> = (props:Base64EncodeProps) => 
                     <input 
                         type="file" 
                         name="input" 
-                        id="fileInput" 
+                        id="fileInput"
                         onChange={fileInputHandler}
                     />
                     <label htmlFor="fileInput">

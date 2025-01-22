@@ -129,37 +129,67 @@
 
     }
 
-    section.fileDecode div.fileUpload {
-        label {
-            display: block;
-            width: 100%;
-            height: 200px;
-            line-height: 200px;
-            border: 1px solid gray;
+    section.fileDecode{
+        div.fileUpload {
+            label {
+                display: block;
+                width: 100%;
+                height: 200px;
+                line-height: 200px;
+                border: 1px solid gray;
 
-            color: var(--grey5);
-            background-color: var(--grey9);
-            cursor: pointer;
+                color: var(--grey5);
+                background-color: var(--grey9);
+                cursor: pointer;
 
-            text-align: center;
-            font-weight: bold;
-            font-size: 1.1em;
+                text-align: center;
+                font-weight: bold;
+                font-size: 1.1em;
 
-            &:hover{
-                background-color: var(--grey8);
+                &:hover{
+                    background-color: var(--grey8);
+                }
+
+
+                .icon {
+                    display: inline-block;
+                    margin-right: 10px;
+                }
             }
 
+            input[type="file"] {
+                display: none;
+            }      
+        }
+        div.success, div.error {
+            margin-top: 15px;
+            padding: 15px;
+            border: 1px solid grey;
 
-            .icon {
-                display: inline-block;
-                margin-right: 10px;
+            background-color: var(--grey9);
+            
+            button {
+                padding: 5px 10px;
+                border: none;
+                color: white;
+                background: var(--green1);
             }
         }
+        div.error {
+            p.error {
+                display: flex;
+                justify-content: center;
+                padding: 10px 15px;
+                width: fit-content;
+                background-color: red;
+                color: white;
 
-        input[type="file"] {
-            display: none;
-        }      
-    }
+                .icon {
+                    margin-right: 15px;
+                }
+            }
+        }
+}
 
 
 }
