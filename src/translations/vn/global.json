@@ -31,6 +31,11 @@
             "guide": "Chọn tệp để tải lên và xử lý, sau đó bạn có thể tải xuống kết quả đã mã hóa.",
             "input": "Nhấp (hoặc chạm) vào đây để chọn một tập tin",
             "note": "Kích thước tệp tối đa là 192MB"
+        },
+        "success": {
+            "header": "Thành công! ",
+            "content": "Tệp đã được mã hóa thành công. Nhấp hoặc tab để tải xuống tệp đã mã hóa.",
+            "download": "Tải về"
         }
     },
     "base64Decode": {

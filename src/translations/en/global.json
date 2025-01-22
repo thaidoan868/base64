@@ -31,6 +31,11 @@
             "guide": "Select a file to upload and process, then you can download the encoded result.",
             "input": "Click (or tap) here to select a file",
             "note": "The maximum file size is 192MB"
+        },
+        "success": {
+            "header": "Success! ",
+            "content": "The file has been encoded successfully. Click or tab to download the encoded file.",
+            "download": "Download"
         }
     },
     "base64Decode": {

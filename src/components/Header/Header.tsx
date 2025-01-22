@@ -30,8 +30,8 @@ export const Header: FC<HeaderProps> = (props:HeaderProps) => {
             </div>
             <div className={styles.options}>
                 <button 
-                    onClick={() => props.setMode("encode")}
-                    className={props.mode==="encode" ? styles.selected : ""}
+                    onClick={() => props.setMode("decode")}
+                    className={props.mode==="decode" ? styles.selected : ""}
                 >
                     <FontAwesomeIcon 
                         className={styles.icon}
@@ -40,8 +40,8 @@ export const Header: FC<HeaderProps> = (props:HeaderProps) => {
                     {t("header.decodeOption")}
                 </button>
                 <button 
-                    onClick={() => props.setMode("decode")}
-                    className={props.mode==="decode" ? styles.selected : ""}
+                    onClick={() => props.setMode("encode")}
+                    className={props.mode==="encode" ? styles.selected : ""}
                 >
                     <FontAwesomeIcon 
                         className={styles.icon}
