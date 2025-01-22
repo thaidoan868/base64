@@ -1,5 +1,128 @@
 {
     "header": {
-        "logo": "mã hóa và giải mã"
+        "logo": "Giải mã và mã hóa",
+        "decodeOption": "Giải mã",
+        "encodeOption": "Mã hóa",
+        "language": "Ngôn ngữ",
+        "intro": "Bạn có phải xử lý định dạng Base64 không? Vậy thì trang web này hoàn hảo cho bạn! Sử dụng công cụ trực tuyến siêu tiện dụng của chúng tôi để mã hóa hoặc giải mã dữ liệu của bạn."
+    },
+    "base64Encode": {
+        "options": {
+            "destinationCharacterSet": "Bộ ký tự đích cho tệp văn bản.",
+            "destinationNewline": "Ký tự dòng mới",
+            "encodeSeparately": "Mã hóa từng dòng riêng biệt (hữu ích khi bạn có nhiều mục nhập).",
+            "splitLines": "Chia các dòng thành các đoạn có độ rộng 76 ký tự (hữu ích cho MIME).",
+            "urlSafe": "Thực hiện mã hóa an toàn cho URL (sử dụng định dạng Base64URL).",
+            "encodeButton": "MÃ HÓA"
+        },
+        "text": {
+            "header": "Mã hóa sang định dạng Base64",
+            "guide": "Chỉ cần nhập dữ liệu của bạn rồi nhấn nút mã hóa.",
+            "input": "Nhập (hoặc dán) vào đây...",
+            "note": "Để mã hóa các tệp nhị phân (như hình ảnh, tài liệu, v.v.), hãy sử dụng biểu mẫu tải tệp lên ở phía dưới trang này.",
+            "liveModeButton": "Chế độ trực tiếp TẮT",
+            "liveModeDescription": "Mã hóa theo thời gian thực khi bạn nhập hoặc dán (chỉ hỗ trợ bộ ký tự UTF-8).",
+            "encodeDescription": "Mã hóa dữ liệu của bạn vào vùng bên dưới.",
+            "output": "Kết quả ở đây...",
+            "copyToClipboard": "Sao chép vào clipboard"
+        },
+        "file": {
+            "header": "Mã hóa tập tin theo định dạng Base64",
+            "guide": "Chọn tệp để tải lên và xử lý, sau đó bạn có thể tải xuống kết quả đã mã hóa.",
+            "input": "Nhấp (hoặc chạm) vào đây để chọn một tập tin",
+            "note": "Kích thước tệp tối đa là 192MB"
+        }
+    },
+    "base64Decode": {
+        "text": {
+            "header": "Giải mã từ định dạng Base64",
+            "guide": "Chỉ cần nhập dữ liệu của bạn rồi nhấn nút giải mã.",
+            "input": "Nhập (hoặc dán) vào đây",
+            "note": "Đối với các tệp nhị phân được mã hóa (như hình ảnh, tài liệu, v.v.), hãy sử dụng biểu mẫu tải tệp lên ở phía dưới trang này.",
+            "sourceCharacterSet": "Bảng mã nguồn",
+            "decodeSeparately": "Giải mã từng dòng riêng biệt (hữu ích khi bạn có nhiều mục nhập).",
+            "liveModeButton": "Chế độ trực tiếp TẮT",
+            "liveModeDescription": "Giải mã theo thời gian thực khi bạn nhập hoặc dán (chỉ hỗ trợ bộ ký tự UTF-8).",
+            "decodeButton": "GIẢI MÃ",
+            "decodeDescription": "Giải mã dữ liệu của bạn vào vùng bên dưới.",
+            "output": "Kết quả ở đây...",
+            "copyToClipboard": "Sao chép vào clipboard"
+        },
+        "file": {
+            "header": "Giải mã các tập tin từ định dạng Base64",
+            "guide": "Chọn tệp để tải lên và xử lý, sau đó bạn có thể tải xuống kết quả đã giải mã.",
+            "input": "Nhấp (hoặc chạm) vào đây để chọn một tập tin",
+            "note": "Kích thước tệp tối đa là 192MB.",
+            "note1": "Không thực thi các tệp đã giải mã có nguồn gốc từ những nguồn không đáng tin cậy.",
+            "decodeSeparately": "Giải mã từng dòng riêng biệt (hữu ích khi bạn có nhiều mục nhập).",
+            "decode": "GIẢI MÃ"
+        }
+    },
+    "about": {
+        "header": "Thông tin",
+        "intro": "Hãy làm quen với Base64 Decode and Encode, một công cụ trực tuyến đơn giản thực hiện chính xác những gì nó nói: giải mã từ mã hóa Base64 cũng như mã hóa vào nó một cách nhanh chóng và dễ dàng. Mã hóa Base64 dữ liệu của bạn mà không gặp rắc rối hoặc giải mã nó thành định dạng mà con người có thể đọc được.", 
+        "intro1": "Các lược đồ mã hóa Base64 thường được sử dụng khi cần mã hóa dữ liệu nhị phân, đặc biệt là khi dữ liệu đó cần được lưu trữ và truyền qua phương tiện được thiết kế để xử lý văn bản. Mã hóa này giúp đảm bảo dữ liệu vẫn nguyên vẹn mà không bị thay đổi trong quá trình truyền tải. Base64 thường được sử dụng trong một số ứng dụng bao gồm email qua MIME, cũng như lưu trữ dữ liệu phức tạp trong XML hoặc JSON.",
+        "options": {
+            "header": "Tùy chọn nâng cao",
+            "destinationCharacterSet": "Bộ ký tự: Trang web của chúng tôi sử dụng bộ ký tự UTF-8, do đó dữ liệu đầu vào của bạn được truyền theo định dạng đó. Hãy thay đổi tùy chọn này nếu bạn muốn chuyển đổi dữ liệu sang bộ ký tự khác trước khi mã hóa. Lưu ý rằng trong trường hợp dữ liệu văn bản, lược đồ mã hóa không chứa bộ ký tự, do đó bạn có thể phải chỉ định bộ ký tự phù hợp trong quá trình giải mã. Đối với tệp, tùy chọn nhị phân là tùy chọn mặc định, tùy chọn này sẽ bỏ qua mọi chuyển đổi; tùy chọn này là bắt buộc đối với mọi thứ ngoại trừ tài liệu văn bản thuần túy.",
+            "destinationNewline": "Ký tự dòng mới: Hệ thống Unix và Windows sử dụng các ký tự ngắt dòng khác nhau, do đó trước khi mã hóa, bất kỳ biến thể nào cũng sẽ được thay thế trong dữ liệu của bạn bằng tùy chọn đã chọn. Đối với phần tệp, điều này không liên quan một phần vì tệp đã chứa các dấu phân cách tương ứng, nhưng bạn có thể xác định dấu phân cách nào sẽ sử dụng cho các hàm \"mã hóa từng dòng riêng biệt\" và \"chia các dòng thành các đoạn\".",
+            "encodeSeparately": "Mã hóa từng dòng riêng biệt: Ngay cả các ký tự xuống dòng cũng được chuyển đổi thành dạng mã hóa Base64 của chúng. Sử dụng tùy chọn này nếu bạn muốn mã hóa nhiều mục dữ liệu độc lập được phân tách bằng ngắt dòng. (*)",
+            "splitLines": "Chia dòng thành từng phần: Dữ liệu được mã hóa sẽ trở thành văn bản liên tục không có khoảng trắng, vì vậy hãy chọn tùy chọn này nếu bạn muốn chia thành nhiều dòng. Giới hạn ký tự được áp dụng được xác định trong thông số kỹ thuật MIME (RFC 2045), trong đó nêu rõ rằng các dòng được mã hóa không được dài quá 76 ký tự. (*)",
+            "urlSafe": "Thực hiện mã hóa an toàn cho URL: Sử dụng Base64 chuẩn trong URL yêu cầu mã hóa các ký tự \"+\", \"/\" và \"=\" thành dạng mã hóa phần trăm của chúng, khiến chuỗi dài hơn không cần thiết. Bật tùy chọn này để mã hóa thành biến thể Base64 thân thiện với URL và tên tệp (RFC 4648 / Base64URL) trong đó các ký tự \"+\" và \"/\" lần lượt được thay thế bằng \"-\" và \"_\", cũng như các dấu đệm \"=\" bị bỏ qua.",
+            "liveMode": "Chế độ trực tiếp: Khi bạn bật tùy chọn này, dữ liệu nhập vào sẽ được mã hóa ngay lập tức bằng các hàm JavaScript tích hợp của trình duyệt mà không cần gửi bất kỳ thông tin nào đến máy chủ của chúng tôi. Hiện tại, chế độ này chỉ hỗ trợ bộ ký tự UTF-8.",
+            "note": "(*) Không thể bật đồng thời các tùy chọn này vì kết quả đầu ra sẽ không hợp lệ đối với phần lớn các ứng dụng."
+        },
+        "safeAndSecure": {
+            "header": "An toàn và bảo mật",
+            "content": "Mọi giao tiếp với máy chủ của chúng tôi đều thông qua kết nối được mã hóa SSL an toàn (https). Chúng tôi xóa các tệp đã tải lên khỏi máy chủ ngay sau khi được xử lý và tệp có thể tải xuống được xóa ngay sau lần tải xuống đầu tiên hoặc 15 phút không hoạt động (tùy theo thời gian nào ngắn hơn). Chúng tôi không lưu giữ hoặc kiểm tra nội dung của dữ liệu đã gửi hoặc các tệp đã tải lên theo bất kỳ cách nào. Đọc chính sách bảo mật của chúng tôi bên dưới để biết thêm chi tiết."
+        },
+        "completelyFree": {
+            "header": "Hoàn toàn miễn phí",
+            "content": "Công cụ của chúng tôi miễn phí sử dụng. Từ giờ trở đi, bạn không cần phải tải xuống bất kỳ phần mềm nào cho những tác vụ đơn giản như vậy."
+        },
+        "details": {
+            "header": "Chi tiết về mã hóa Base64",
+            "intro": "Base64 là thuật ngữ chung cho một số lược đồ mã hóa tương tự mã hóa dữ liệu nhị phân bằng cách xử lý dữ liệu theo dạng số và dịch dữ liệu đó thành dạng biểu diễn base-64. Thuật ngữ Base64 bắt nguồn từ mã hóa chuyển giao nội dung MIME cụ thể.",
+            "design": {
+                "header": "Thiết kế",
+                "content": "Lựa chọn ký tự cụ thể để tạo nên 64 ký tự bắt buộc cho Base64 khác nhau giữa các triển khai. Quy tắc chung là chọn một bộ 64 ký tự vừa 1) là một phần của tập hợp con chung cho hầu hết các mã hóa và 2) cũng có thể in được. Sự kết hợp này khiến dữ liệu khó có thể bị sửa đổi trong quá trình truyền qua các hệ thống như email, vốn theo truyền thống không phải là 8 bit sạch. Ví dụ, triển khai Base64 của MIME sử dụng A-Z, a-z và 0-9 cho 62 giá trị đầu tiên, cũng như \"+\" và \"/\" cho hai giá trị cuối. Các biến thể khác, thường bắt nguồn từ Base64, chia sẻ thuộc tính này nhưng khác nhau ở các ký hiệu được chọn cho hai giá trị cuối; một ví dụ là biến thể \"RFC 4648 / Base64URL\" an toàn cho URL và tên tệp, sử dụng \"-\" và \"_\"."
+            },
+            "example": {
+                "header": "Ví dụ",
+                "content": "Dưới đây là một đoạn trích từ tác phẩm Leviathan của Thomas Hobbes:",
+                "content1": "\"Man is distinguished, not only by his reason, but ...\"",
+                "content2": "Điều này được biểu diễn dưới dạng chuỗi byte ASCII và được mã hóa theo lược đồ Base64 của MIME như sau:",
+                "content3": "TWFuIGlzIGRpc3Rpbmd1aXNoZWQsIG5vdCBvbmx5IGJ5IGhpcyByZWFzb24sIGJ1dCAuLi4=",
+                "content4": "Trong trích dẫn trên, giá trị được mã hóa của Man là TWFu. Được mã hóa trong ASCII, các chữ cái \"M\", \"a\" và \"n\" được lưu trữ dưới dạng các byte 77, 97, 110, tương đương với \"01001101\", \"01100001\" và \"01101110\" trong cơ số 2. Ba byte này được nối với nhau trong bộ đệm 24 bit tạo ra chuỗi nhị phân \"010011010110000101101110\". Các gói 6 bit (6 bit có tối đa 64 giá trị nhị phân khác nhau) được chuyển đổi thành 4 số (24 = 4 * 6 bit) sau đó được chuyển đổi thành các giá trị tương ứng của chúng trong Base64.",
+                "content5": "Như ví dụ minh họa này, mã hóa Base64 chuyển đổi 3 byte chưa mã hóa (trong trường hợp này là các ký tự ASCII) thành 4 ký tự ASCII được mã hóa."
+            }
+        }
+    },
+    "footer": {
+        "copyright": "2010-2025 base64encode.org",
+        "policy": "Chính sách bảo mật",
+        "aboutUs": "Về chúng tôi",
+        "contact": "Liên hệ",
+        "useCookies": "Trang web này sử dụng cookie. Chúng tôi sử dụng cookie để cá nhân hóa nội dung/quảng cáo và phân tích lưu lượng truy cập của chúng tôi."
+    },
+    "rightSideBar": {
+        "tip": "Mẹo: Đánh dấu trang của chúng tôi!",
+        "tools": {
+            "header": "Các công cụ khác",
+            "urlDecode": "Giải mã URL",
+            "urlEncode": "Mã hóa URL",
+            "jsonMinify": "Thu nhỏ JSON",
+            "jsonBeautify": "Làm đẹp JSON",
+            "jsMinify": "Thu nhỏ JS",
+            "jsBeautify": "Làm đẹp JS",
+            "cssMinify": "Thu nhỏ CSS",
+            "cssBeautify": "Làm đẹp CSS"
+        },
+        "partners": {
+            "header": "Các trang web đối tác",
+            "numberSystemConverter": "Bộ chuyển đổi hệ thống số",
+            "groupChat": "Trò chuyện nhóm an toàn"
+        }
     }
+
 }

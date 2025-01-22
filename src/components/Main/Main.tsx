@@ -13,10 +13,10 @@ interface MainProps {
 }
 
 export const Main: FC<MainProps> = (props:MainProps) => {
-    const [mode, setMode] = useState("encode");
+    const [mode, setMode] = useState<string>("encode");
 
     return <div className={styles.main}>
-        <Header />
+        <Header setMode={setMode} mode={mode}/>
         <div className={styles.grid}>
             <div className={styles.body}> 
                 {

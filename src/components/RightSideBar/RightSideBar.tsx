@@ -73,7 +73,7 @@ export const RightSideBar: FC<RightSideBarProps> = (props:RightSideBarProps) => 
             <FaArrowRightArrowLeft />
         </a>
         <a href="">
-            {t("rightSideBar.partners.numberSystemConverter")}
+            {t("rightSideBar.partners.groupChat")}
             <FaShieldAlt />
         </a>
         
